@@ -80,7 +80,7 @@ const copyToClipboard = async () => {
           <!-- Shift Key Range Slider -->
           <div class="shift-container ion-margin-top ion-margin-bottom">
             <ion-item lines="none">
-              <ion-label>Shift Key (Caesar Cipher): <strong>{{ shiftKey }}</strong></ion-label>
+              <ion-label>Shift Key: <strong>{{ shiftKey }}</strong></ion-label>
             </ion-item>
             <ion-range 
               :min="1" 
